@@ -78,10 +78,18 @@ main{
     margin-inline: auto;
     padding: 2rem 4rem;
     flex: 1;
-    display: flex;
     align-items: center;
 }
 
+.content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    scroll-snap-align: start;
+}
 
 /*Main Content*/
 main.content{
@@ -90,21 +98,22 @@ main.content{
     align-items: center;
 }
 
-main.content .content-description{
+main.content .first-content-description{
     flex: 1 1;
 }
 
-main.content .content-description .title{
+main.content .first-content-description .title{
     font-size: 3.5rem;
     margin-block: 1rem;
 }
 
-main .content .content-description p {
+main .content .first-content-description p {
     line-height: 1.7rem;
     font-size: 1.2rem;
+    text-align: justify;
 }
 /*-- Button --*/
-main .content .content-description button {
+main .content .first-content-description button {
     padding: .8rem 2.5rem;
     margin-block-start: 1rem;
     text-transform: uppercase;
@@ -118,7 +127,7 @@ main .content .content-description button {
     transition: all .15s ease-in;
 }
 
-main .content .content-description button:hover {
+main .content .first-content-description button:hover {
     background-color: black;
     color: #FFFF;
 }
@@ -126,13 +135,22 @@ main .content .content-description button:hover {
 /*-- End of Button --*/
 
 
-main .content .content-image {
+main .content .first-content-image {
     flex: 1;
     display: flex;
 }
 
+main .content .second-content-image{
+    flex: 1 1;
+}
 
-main .content .content-image img {
+main .content .first-content-image img {
+    margin: auto;
+    min-width: 250px;
+    width: 300px;
+}
+
+main .content .second-content-image img {
     margin: auto;
     min-width: 250px;
     width: 300px;
@@ -175,58 +193,3 @@ main aside .social-media li {
     list-style-type: none;
   }
 /*End of Aside*/
-
-.content{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    scroll-snap-align: start;
-}
-
-/* section{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    scroll-snap-align: start;
-} */
-
-/* .sectionimage{
-    width: 300px;
-    height: 300px;
-} */
-
-/* .ig.linkedin.yt{
-    width: 10px;
-    height: 10px;
-} */
-
-/* main aside{
-    position: fixed;
-    inset-block: 0;
-    inset-inline-end: 0;
-}
-
-main aside .social-media{
-    height: 100%;
-    display: flex;
-}
-
-main aside .social-media ul{
-    padding: 1.5rem 1rem;
-    margin: auto;
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
-    background-color: #0000;
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
-}
-
-main aside .social-media li{
-    list-style-type: none;
-} */
