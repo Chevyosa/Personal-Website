@@ -213,7 +213,7 @@ main aside .social-media li {
 }
 
 .section-carousel .carousel{
-    max-width: 1580px;
+    max-width: 1600px;
     align-items: center;
     grid-auto-flow: column;
     grid-auto-columns: calc((100% - 3) -12px);
@@ -238,7 +238,7 @@ main aside .social-media li {
 }
 
 .carousel .carousel-card{
-    height: 342px;
+    height: 250px;
     list-style: none;
     background: #ffff;
     border-radius: 8px;
@@ -250,8 +250,8 @@ main aside .social-media li {
 }
 
 .carousel-card .carousel-img img{
-    width: 342px;
-    height: 342px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 50%;
 }
