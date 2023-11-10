@@ -199,43 +199,6 @@ main aside .social-media li {
   }
 /*End of Aside*/
 
-/* Gallery */
-
-.gallery-container{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    scroll-snap-align: start;
-    text-align: center;
-    height: 100vh;
-}
-
-.gallery-container .gallery-card .image{ 
-    height: 350px;
-    width: 350px;
-    border-radius: 50%;
-    padding: 3px;
-    background: black;
-    margin: 0 20px;
-}
-
-.gallery-container .gallery-card .image img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
-.gallery-card{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 50px;
-}
-
-/* End of Gallery */
-
 /* Gallery Carousel */
 
 .gallery{
