@@ -308,6 +308,15 @@ main aside .social-media li {
 
 /* End of Projects */
 
+/* Footer */
+
+footer{
+    background-color: whie;
+    margin-top: 60px;
+}
+
+/* End of Footer*/
+
 @media screen and (max-width: 900px){
     .section-carousel .carousel{
         grid-auto-columns: calc((100% - 2) -9px);
